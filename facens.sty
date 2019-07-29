@@ -1,0 +1,155 @@
+%%
+%% Customizações do abnTeX2 (http://abnTeX2.googlecode.com) para a Universidade XXXX
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is SEU_NOME, SEU_EMAIL
+%%
+%% Further information about abnTeX2 are available on http://abntex2.googlecode.com/
+%%
+
+% ---
+% INICIO DAS CUSTOMIZACOES PARA A UNIVERSIDADE XXX
+% ---
+
+\ProvidesPackage{abntex2novopacote}[2014/09/01 Criacao desta customizacao do abnTeX2]
+
+
+% Fonte Arial como default
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\renewcommand{\bibname}{\tiny}
+
+% ---
+% TAMANHO DE FONTES
+% ---
+% Opções com o tamanho definido como 12pt na classe principal
+% \tiny - 6pt
+% \scriptsize - 8pt
+% \footnotesize - 10pt
+% \small - 11pt
+% \normalzize - 12pt
+% \large - 14pt
+% \Large - 17pt
+% \LARGE - 20pt
+% \huge - 25pt
+% \Huge - 25pt
+\renewcommand{\ABNTEXchapterfontsize}{\large\bfseries}
+\renewcommand{\ABNTEXsectionfontsize}{\normalsize}
+\renewcommand{\ABNTEXsubsectionfontsize}{\normalsize}
+\usepackage[font=footnotesize]{caption}
+
+
+
+% alterando a capa
+\renewcommand{\imprimircapa}{%
+  \begin{capa}%
+    \center
+    
+    %logo Facens
+    \begin{figure}
+    	\centering
+    	\includegraphics[height=2cm]{facensLogo}
+  	\end{figure}
+  	
+  	%Coordenadoria de ... fonte 16 - feita uma pequena gambiarra pois por padrão este tamanho não é disponivel
+  	{\fontsize{16}{20}\MakeUppercase\ABNTEXchapterfont\textbf{COORDENADORIA DE ENGENHARIA DE COMPUTAÇÃO}}
+
+    %espaço
+    \vfill
+
+	%impressão dos autores em negrito e caixa alta
+    {\large\MakeUppercase\imprimirautor}
+	
+	%espaço
+    \vfill
+    
+    %titulo do trabalho
+    \center\ABNTEXchapterfont\bfseries\large\MakeUppercase\imprimirtitulo
+
+	%espaço
+    \vfill
+
+	%impressão do local
+    \large\imprimirlocal
+
+	%impressão da data
+    \large\imprimirdata
+    
+  \end{capa}
+}
+
+
+% folha de rosto 
+
+\makeatletter
+
+\renewcommand{\folhaderostocontent}{
+\begin{center}
+{\normalsize\textbf{\imprimirautor}}
+
+
+\vspace*{\fill}\vspace*{\fill}
+
+\begin{center}
+\bfseries\large\MakeUppercase\imprimirtitulo
+\end{center}
+
+\vspace*{\fill}
+
+\abntex@ifnotempty{\imprimirpreambulo}{%
+	\begin{OnehalfSpace}
+  		\hspace{.45\textwidth}
+  		\begin{minipage}{.5\textwidth}
+  			\imprimirpreambulo 
+  			\\
+  			\\
+  			Orientadora: \imprimirorientadorRotulo~\imprimirorientador
+  		\end{minipage}%
+  	\end{OnehalfSpace}
+  \vspace*{\fill}
+}%
+
+{\large\textbf\imprimirlocal}
+
+%\par
+
+{\large\textbf\imprimirdata}
+\end{center}
+}
+
+\makeatother
+
+%Numeração por seções
+\setlength{\cftfigurenumwidth}{3em}
+\setlength{\cfttablenumwidth}{3em}
+
+% Criação de quadros
+% Novo list of (listings) para QUADROS
+
+\newcommand{\quadroname}{Quadro}
+\newcommand{\listofquadrosname}{Lista de quadros}
+
+\newfloat[chapter]{quadro}{loq}{\quadroname}
+\newlistof{listofquadros}{loq}{\listofquadrosname}
+\newlistentry{quadro}{loq}{0}
+
+% configurações para atender às regras da ABNT
+\renewcommand{\cftquadroname}{\quadroname\space} 
+\renewcommand*{\cftquadroaftersnum}{\hfill--\hfill}
+
+% Configuração de posicionamento padrão:
+\setfloatlocations{quadro}{hbtp}
+
+% ---
+% FIM DAS CUSTOMIZACOES PARA A UNIVERSIDADE XXX
+% ---

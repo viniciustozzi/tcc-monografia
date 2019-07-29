@@ -1,0 +1,204 @@
+\begin{apendicesenv}
+
+% Imprime uma página indicando o início dos apêndices
+%\partapendices
+
+% ----------------------------------------------------------
+\lstset{frame=none}
+\chapter{\textit{Session Command}}
+\label{ap:sessioncommand}
+
+\begin{lstlisting}
+(ns session-command.kafka.core
+  (:require [kinsky.client :as client]
+            [session-command.config :refer [env]]
+            [clojure.core.async :as a]
+            [jkkramer.verily :as v]))
+
+(def s-validate (v/validations->fn [[:required [:brand :model :hd-id :command :uuid]]]))
+(def t-validate (v/validations->fn [[:required [:session-id :gas-lvl :lat :long :vel]]]))
+(def w-validate (v/validations->fn [[:required [:session-id :action]]]))
+
+(mount.core/defstate conn
+                     :start (client/producer {:bootstrap.servers (env :kafka)}
+                                             (client/keyword-serializer)
+                                             (client/edn-serializer))
+                     :stop (client/close! conn))
+
+(defn push-session [session]
+  (if (s-validate session)
+    (client/send! conn "session" :session session)
+    {:error "Value can be null"}))
+
+(defn push-warn [warn]
+  (if (w-validate warn)
+    (client/send! conn "warn-warn" :session warn)
+    {:error "Value cannot be null"}))
+
+(defn push-track [track]
+  (if (t-validate track)
+    (client/send! conn "track" :track track)
+    {:error "value cannot be null"}))
+\end{lstlisting}
+
+% ----------------------------------------------------------
+\chapter{\textit{Session Worker}}
+\label{ap:sessionworker}
+\begin{lstlisting}
+(ns session-worker.core
+  (:gen-class)
+  (:require [ext.kafka :as kf]
+            [clojure.core.async :refer [go thread chan <!!]]
+            [ext.router :as rt]
+            [clojure.data.json :as json]
+            [clojure.tools.logging :as log]))
+
+(defn pull [item]
+  (println (:command item) " " (:uuid item))
+  (case (:command item)
+    "create_session" (rt/save-session item)
+    "warn" (rt/save-warn item)
+    nil))
+
+(defn loop-through [c]
+  (loop [count 0]
+    (try
+      (println "LOOP" count)
+      (kf/pop-session-async c)
+      (doseq [i (<!! c)]
+        (pull i))
+      (catch Exception e
+        (-> e print)))
+    (recur (inc count))))
+
+(defn -main [& args]
+  (mount.core/start)
+  (let [c (chan)]
+    (loop-through c)))
+\end{lstlisting}
+
+%---------------------------------------------------------------
+\chapter{\textit{Docker Compose}}
+\label{ap:dockercompose}
+\begin{lstlisting}
+version: '3'
+services:
+  session-command:
+      container_name: "session-command"
+      environment:
+        - KAFKA=gabrielgio.com.br:9092
+      image: registry.gitlab.com/gabrielgio/session-command:0.0.1
+      ports:
+        - "3000:3000"
+
+  tracker-command:
+    container_name: "tracker-command"
+    environment:
+      - KAFKA=gabrielgio.com.br:9092
+    image: registry.gitlab.com/gabrielgio/tracker-command:0.0.1
+    ports:
+      - "3001:3000"
+
+  session-query:
+    container_name: "session-query"
+    environment:
+      - MONGO=mongodb://remote:remote@gabrielgio.com.br:27017/main
+    image: registry.gitlab.com/gabrielgio/session-query:0.0.1
+    ports:
+      - "3002:3000"
+
+  session-worker-1:
+    container_name: "session-worker-1"
+    environment:
+      - KAFKA=gabrielgio.com.br:9092
+      - MONGO=mongodb://remote:remote@gabrielgio.com.br:27017/main
+      - DATOMIC=datomic:sql://main?jdbc:mysql://gabrielgio.com.br:3306/datomic?user=remote&password=remote
+    image: registry.gitlab.com/gabrielgio/session-worker:0.0.1
+\end{lstlisting}
+%------------------------------------------------------------------------
+\chapter{\textit{Mockup} dos veículos}
+\label{ap:mockveiculos}
+\begin{lstlisting}
+(ns sim-worker.core
+  (:gen-class)
+  (:require [clojure.tools.cli :refer [parse-opts]]
+            [clojure.core.async :as a :refer [go thread]]
+            [clj-http.client :as client]
+            [clojure.data.json :as json])
+  (:import (java.util UUID)))
+
+(def session-url "http://gabrielgio.com.br:3000/api/session")
+(def track-url "http://gabrielgio.com.br:3001/api/track")
+
+(defn uuid
+  "Get a new UUID"
+  []
+  (str (UUID/randomUUID)))
+
+(defn post-session
+  "Start a session"
+  [body]
+  (client/post session-url {:form-params  body
+                            :content-type :json}))
+
+(defn call-api
+  "Call tracker api to register sim's location"
+  [item]
+  (client/post track-url {:form-params  (dissoc item :delay)
+                          :content-type :json}))
+
+(defn get-randon-info []
+  {:lat (rand-int 30)
+   :long (rand-int 30)
+   :vel (rand-int 100)
+   :gas-lvl (rand-int 30)
+   :delay 1})
+
+(defn parse-json
+  "Reads information from a json file and parse it"
+  [n]
+  (loop [x 0 ar []]
+    (if (< x n)
+      (recur (inc x) (conj ar (get-randon-info)))
+      ar)))
+
+(defn get-session
+  "Starts a session from API"
+  [{:keys [brand model hid]}]
+  (let [res (post-session {:brand brand
+                           :model model
+                           :hd-id hid})]
+    (:session-id (json/read-str (:body res) :key-fn keyword))))
+
+(defn run-sim
+  "Runs simulation"
+  [sims session hid]
+  (doseq [sim sims]
+    (call-api (assoc sim :session-id session ))))
+
+(defn run
+  "Gathers informations, start simulation
+  and start consuming api."
+  []
+  (let [hid (uuid)
+        s (get-session (assoc {} :brand "sim 0001" :model "x01" :hid hid))]
+    (run-sim (parse-json 100) s hid)))
+
+(defn start-threads
+  "Starts all threads"
+  [n]
+  (loop [v n]
+    (if (> v 1)
+      (do
+        (go (run))
+        (recur (dec v))))))
+
+(defn -main
+  "Start simulation"
+  [& args]
+  (let [{:keys [options]} (parse-opts args [["-n" "--n NUMBER" :parse-fn #(Integer. %)]])]
+    (start-threads (:n options))))
+
+\end{lstlisting}
+
+\end{apendicesenv}
