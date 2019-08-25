@@ -1,0 +1,41 @@
+* TODO Ficha Cadastral
+*Título:* Aplicação para aprendizado e memorização de vocubulário através de repetição espaçada.
+
+*ODS e Justificativa:*
+Objetivo 4: Assegurar a educação inclusiva, equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos.
+
+-> Justificativa: Atualmente devido a globalização o ensino de uma nova língua é essencial, este projeto propõe auxiliar no aprendizado de novas línguas, especialmente na leitura e entendimento de conteúdo escrito. Pode ser usado por indíviduos ou por instituições de ensino, tornando assim o aprendizado mais acessível.
+
+Objetivo 8: Promover o crescimento econômico sustentado, inclusivo e sustentável, emprego pleno e produtivo e trabalho decente para todos.
+
+-> Justificativa: Conhecer uma língua além da língua nativa é uma habilidade de extrema importância para ser competitivo no mercado de trabalho atual. Aprender novas línguas também promove a troca de trabalho e recursos entre diferentes países e por consequência promove o crescimento econômico mundial.ee
+
+*Resumo da proposta de trabalho*
+->Contexto
+->Problema a ser resolvido\resolvido
+->Objetivos
+->Metodos
+->Resultados
+
+Existem múltiplos benefícios em se aprender uma ou mais línguas estrangeiras. Estudantes de línguas não apenas se beneficiam de conhecer a linguagem mas também possuem vantagem no mercado de trabalho devido a uma maior capacidade de comunicação. Pesquisas indicam que indíviduos que falam mais de uma língua possuem capacidade cognitiva maior e melhores resultados acadêmicos (Weatherford, H. J. (1986).
+
+Mas aprender uma linguagem nova não é uma tarefa simples, pois envolve gramática, memorização de vocabulário, prática de leitura, escrita, diálogo e compreensão auditiva. Diferentes técnicas de estudo são necessárias para cobrir todos os aspectos para aprender uma linguagem.
+
+Esse projeto propõe uma aplicação mobile (Android e iOS) para auxiliar o aprendizado de uma nova língua, focando na prática de leitura de textos na língua desejada e memorização de novo vocabulário a longo prazo.
+
+O usuário poderá ler um texto de sua escolha e marcar as palavras ou expressões que não souber o significado. A partir dessa lista de palavras ele pode fazer sessões de prática que utilizam algoritmos de repetição espaçada para que o aprendizado ocorra da forma mais otimizada possível. O usuário receberá notificações para relembrar as palavras quando necessário e poderá também ver e analisar relatórios de sua performance em relação a leituras anteriores do mesmo texto.
+
+Com essa aplicação espera-se que a prática da leitura de textos em uma língua estrageira com o propósito de aprender novo vocabulário seja mais produtiva e que o progresso do aprendizado seja visível para o estudante.
+
+
+*Palavras chave*
+Aprendizado, Repetição espaçada, Linguagem 
+
+*Área de conhecimento*
+Desenvolvimento Mobile, Algoritmos e Programação, Estruturas de Dados
+
+*Referencias*
+Weatherford, H. J. (1986). Personal benefits of foreign language study. ERIC digest.   U.S.; District of Columbia
+
+
+* TODO Introduction

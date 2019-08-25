@@ -1,0 +1,29 @@
+\babel@toc {brazil}{}
+\babel@toc {brazil}{}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Gr\IeC {\'a}fico de crescimento do IoT entre os anos de 2011 a 2025\relax }}{14}{figure.caption.12}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fluxograma da IoT\relax }}{15}{figure.caption.13}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o da IoT\relax }}{16}{figure.caption.14}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Estrutura de um sistema de IoT\relax }}{17}{figure.caption.15}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Impacto populacional\relax }}{18}{figure.caption.16}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces V2V simula\IeC {\c c}\IeC {\~a}o\relax }}{19}{figure.caption.17}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Modelo Relacional\relax }}{24}{figure.caption.19}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Query} SQL\relax }}{25}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Arquitetura de um \textit {Data Warehouse}\relax }}{26}{figure.caption.21}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sistemas que se integram com Hadoop.\relax }}{31}{figure.caption.22}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Fluxo b\IeC {\'a}sico de informa\IeC {\c c}\IeC {\~o}es do Hadoop.\relax }}{32}{figure.caption.23}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Exemplo de fonte de informa\IeC {\c c}\IeC {\~a}o que o Spark Streaming suporta.\relax }}{33}{figure.caption.24}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o de um \textit {DStream}.\relax }}{33}{figure.caption.25}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitetura CQRS\relax }}{36}{figure.caption.26}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Arquitetura Docker\relax }}{37}{figure.caption.27}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Docker Swarm\relax }}{38}{figure.caption.28}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Ecossistema Docker\relax }}{39}{figure.caption.29}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Parti\IeC {\c c}\IeC {\~o}es do Kafka\relax }}{41}{figure.caption.30}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Processo de escrita do Kafka\relax }}{41}{figure.caption.31}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Fluxo para inser\IeC {\c c}\IeC {\~a}o de dados pela arquitetura\relax }}{46}{figure.caption.36}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Fluxo para leitura de dados pela arquitetura\relax }}{46}{figure.caption.37}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Estrutura Geral da Arquitetura\relax }}{46}{figure.caption.38}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Cluster de Cont\IeC {\^e}ineres\relax }}{48}{figure.caption.39}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Visualiza\IeC {\c c}\IeC {\~a}o dos clientes\relax }}{49}{figure.caption.40}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Dados armazenados no MongoDB\relax }}{50}{figure.caption.41}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Dados armazenados no Datomic\relax }}{50}{figure.caption.42}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Gr\IeC {\'a}fico de resultados do teste de \textit {stress}\relax }}{52}{figure.caption.44}% 
