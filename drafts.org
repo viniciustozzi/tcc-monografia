@@ -1,4 +1,5 @@
-* TODO Ficha Cadastral
+#+TODO: TODO REVIEW | DONE
+* DONE Ficha Cadastral
 *Título:* Aplicação para aprendizado e memorização de vocubulário através de repetição espaçada.
 
 *ODS e Justificativa:*
@@ -8,7 +9,7 @@ Objetivo 4: Assegurar a educação inclusiva, equitativa e de qualidade, e promo
 
 Objetivo 8: Promover o crescimento econômico sustentado, inclusivo e sustentável, emprego pleno e produtivo e trabalho decente para todos.
 
--> Justificativa: Conhecer uma língua além da língua nativa é uma habilidade de extrema importância para ser competitivo no mercado de trabalho atual. Aprender novas línguas também promove a troca de trabalho e recursos entre diferentes países e por consequência promove o crescimento econômico mundial.ee
+-> Justificativa: Conhecer uma língua além da língua nativa é uma habilidade de extrema importância para ser competitivo no mercado de trabalho atual. Aprender novas línguas também promove a troca de trabalho e recursos entre diferentes países e por consequência promove o crescimento econômico mundial.
 
 *Resumo da proposta de trabalho*
 ->Contexto
@@ -32,10 +33,95 @@ Com essa aplicação espera-se que a prática da leitura de textos em uma língu
 Aprendizado, Repetição espaçada, Linguagem 
 
 *Área de conhecimento*
-Desenvolvimento Mobile, Algoritmos e Programação, Estruturas de Dados
+Desenvolvimento Mobile, Algoritmos e Programação, Estruturas de Dados, Backend
 
 *Referencias*
 Weatherford, H. J. (1986). Personal benefits of foreign language study. ERIC digest.   U.S.; District of Columbia
 
+* TODO Capítulo 1. Introdução
+* DONE Capitulo 2. Aprendizado de uma nova língua
+** Importancia de aprender uma lingua estrangeira
+   O aprendizado de línguas estrangeiras é bastante relevante no mundo moderno devido a diversos fatores como a globalização, internet e mercado de trabalho. Pesquisas indicam que a procura pelo aprendizado de novas línguas está aumentando nos últimos anos. Dados providos pelo IES (Institute of Education Sciences) mostram que escolas primárias aumentaram em 40% o número de horas dedicadas ao ensino de uma língua estrangeira entre os anos 1990 e 2000. (https://nces.ed.gov/programs/digest/d09/tables/dt09_056.asp)
+   Com o mundo cada vez mais globalizado e inúmeras empresas multinacionais, falar uma ou mais línguas estrangeiras é uma vantagem competitiva no mercado de trabalho pois permite uma maior capacidade de comunicão, além disso permite maiores possibilidades de estudo e capacitação em instituições de ensino em países estrangeiros.
+   Além das tangíveis vantagens práticas em aprender uma língua estrangeira, estudos mostram que existem diferenças fisiológicas no cérebro de pessoas que aprendem uma segunda língua. Um estudo publicado na revista científica "Brain and Language Ed. 131" mostra que existe um melhor desenvolvimento do cerébro quando se aprende uma língua estrangeira. (https://www.sciencedirect.com/science/article/abs/pii/S0093934X13001120). Outro estudo publicado na revista "NeuroImage Vol 63" mostra que há diferenças estruturais na fisiologia do cerébro de pessoas enquanto elas estão aprendendo uma língua estrangeira. (https://www.sciencedirect.com/science/article/abs/pii/S1053811912006581?via%3Dihub)
 
-* TODO Introduction
+** Dificuldades sobre aprender uma nova lingua
+   Aprender uma língua é uma tarefa complexa que envolve estudo de conceitos teóricos como gramática, conceitos temporais e casos gramáticais, também exige bastante prática e treino para memorização de vocabulário. Para alguém se considerar fluente em uma língua deve-se estar confortável em utilizar a linguagem em sua forma escrita, falada e ser capaz de compreender quando ouvida. Regras gramáticais e semânticas são um conjunto de regras que o aluno deve conhecer para saber como a linguagem funciona estruturalmente, mas uma das grandes dificuldades em aprender uma língua estrangeira é ter o conhecimento necessário em vocabulário, pois requer memorização de uma grande quantidade de palavras.
+   No dicionário Oxford da línga inglesa há 133,826, excluindo as palavras que não são mais utilizadas, mas naturalmente não é necessário conhecer todas as palavras da língua para ser fluente. Uma pesquisa feita por TestYourVocab.com(http://testyourvocab.com/blog/2013-05-08-Native-speakers-in-greater-detail#newMainchartNative) mostra que uma pessoa fluente na língua inglesa conhece em torno de 20.000 a 35.000 palavras, o que ainda é um número considerável de vocabulário a ser memorizado.
+
+* DONE Capítulo 3. Metodologias para memorização de vocabulário
+   Existem múltiplos métodos para auxiliar na memorização de novo vocabulário como a leitura da definição da palavra repetidas vezes, escrever múltiplas vezes ou repetir em voz alta, algumas pesquisas indicam que repetir vocabulário enquanto executando algum tipo de exercício fisíco aumenta a capacidade de retenção dos significados das palavras (https://www.ncbi.nlm.nih.gov/pubmed/20620190).
+   Mas um dos métodos mais populares atualmente se baseia em utilizar cartões ou um pedaço de papel onde de um lado do papel está escrito a palavra que se deseja memorizar na língua estrangeira e do outro lado do papel está a tradução da palavra. A idéia é que o estudante tente lembrar da tradução da palavra sem precisar virar o cartão e para verificar se está correto ele pode apenas virar o cartão e ver a resposta.
+
+** Curva de esquecimento e aprendizado 
+   Em seu livro "Über das Gedächtnis (Memory: A Contribution to Experimental Psychology)” o autor Hermann Ebbinghaus analisa de forma empirica como as pessoas esquecem informação depois de aprender, ele chegou a conclusão que o esquecimento comporta-se de forma exponencial, como na Fig.:
+
+   [Imagem de Forgetting curve]
+
+   Notou-se que a velocidade com que um estudante esquece as informações depende de múltiplos fatores como dificuldade do tema a ser estuado, como a informação está sendo apresentada, quão fácil é para o estudante relacionar o conteúdo com algum conhecimento prévio. Mas apesar da velocidade de esquecimento variar, a curva exponencial mantém-se em todas os casos. 
+ 
+   Baseado nessa informação o autor também discursou sobre o efeito de espaçamento de conteúdo para otimização do aprendizado de novo conteúdo. Informação que é relemebrada com um determinado intervalo de tempo é bem mais efetivo do que tentar memorizar uma grande quantidade de informação em um curto período de tempo.
+
+   Em uma pesquisa efetuada em 2007 (https://www.rci.rutgers.edu/~shors/pdf/Sisti%2C%20Glass%20and%20Shors%20Neurogenesis%20and%20Spacing%20Effect%202007.pdf) avaliou-se essa hipótese de uma perspectiva biológica e fisiológica. Notou-se que quando é aplicado o princípio de aprendizado espaçado há um maior desenvolvimento dos neurônios na região do hipocampo que é a região responsável por armazenar memórias a longo prazo.
+
+   [Imagem pesquisa 2007]
+
+** SRS - Spaced Repetition System
+   Por si só flashcards são apenas uma ferramenta para a repetição de conteúdo, o potencial desse método vem de técnicas e algoritmos que utilizam o conceito de aprendizado espaçado. Idealmente o estudante deve estudar de forma otimizada e não repetindo todas as palavras o tempo inteiro, mas apenas repetir as palavras que estiver prester a esquecer.
+   Um dos primeiros métodos que utilizou esse princípio para tornar flashcards um processo eficiente foi criado por um cientista alemão chamado Sebastian Leitner no ano de 1970. A idéia do método de Leitner é separar esses cartões em diferentes caixas, onde cada caixa é reavaliada de acordo com a familiaridade com os cartões daquela caixa. Para cada flashcard, se o estudante não lembrar com sucesso da resposta, o cartão é colocado na primeira caixa caso contrário ele vai para a caixa seguinte. Para cada caixa há um tempo maior no qual o aluno deve revisitar, fazendo assim com que o aluno reavalie com mais frequência os cartões que ele possuem mais dificuldade e com menos frequência aqueles que ele já possui domínio.
+  
+   [Imagem Leitner algoritmo do wikipedia] 
+
+   Durante os anos vários algoritmos foram desenvolvidos para otimizar o uso de flashcards como método de Pimsleur, DASH, múltiplas versões do algoritmo SM. Para esse projeto o algoritmo escolhido para ser utilizado será o SM-2 que é o algoritmo de agendamento de flashcards mais utilizado na indústria atualmente.
+
+** CAI e CALL (Computer Assisted Language Learning)
+   CALL é uma sigla que significa "Computer Assisted Language Learning" ou Aprendizado de línguas auxiliado por computadores e é um termo que vem sendo utilizado desde os anos 60. Michael Levy descreve em seu livro chamado "Computer-Assisted Language Learning Context and Conceptualization" a origem e a natureza desse conceito e como softwares podem auxiliar professores e alunos ao aprender uma língua estrangeira. O autor discute que softwares não podem substituir todo o ensino da linguagem, o professor ainda tem um papel importante no ensino, contudo softwares podem ser um grande fator auxiliar nessa tarefa já que permite novas abordagens para o professor.
+   A partir desse conceito, George M. Chinnery cria o conceito de MALL (Mobile Assisted Language Learning) que significa "Aprendizado de línguas auxiliado por dispositivos móveis". Considerando o grande crescimento de pessoas que utilizam smartphones e dispositivos móveis diariamente faz sentido utilizar essas tecnologias e tornar o acesso ao aprendizado de línguas estrangeiras mais acessível. De acordo com Pesquisas feitas pelo Pew Research Center(https://www.pewinternet.org/fact-sheet/mobile/), em 2011 apenas 35% da população dos Estados Unidos possuiam um smartphone enquanto em 2019 esse número subiu para 81%, ou seja, a maior parte da população americana possui um dispositivo móvel que pode ser utilizado para o aprendizado de uma língua estrangeira.
+   Em seu artigo Chinnery descreve que dispositivos móveis podem não ser a melhor plataforma para o aprendizado de novos conceitos mas funcionam muito bem como uma ferramenta de revisão, o que calabora com o conceito inicial de CALL onde o software deve ser uma ferramenta de apoio para o estudante.
+
+** Aprendizado de vocabulário intencional ou involuntário
+
+   Ao aprender novo vocabulário, um possível método de estudo é traduzir palavra por palavra através de sinônimos em sua língua nativa, esse método é chamado de aprendizado de vocabulário intencional ou aprendizado por substituição de palavras. Outra abordagem seria tentar inferir o significado da palavra dentro de um contexto, por exemplo lendo um texto, através de outras palavras da frase, e do contexto do texto o estudante pode tentar interpretar ou pressupor o significado da palavra sem necessariamente achar uma palavra de referência em sua língua nativa, o nome dessa abordagem é aprendizado de vocabulário involuntário.
+   No artigo "Intentional vs. incidental vocabulary learning" escrito por Jameel Ahmad o autor discursa sobre a efetividade de cada método ao se aprender novo vocabulário. As estatísticas fornecidas pelo estudo mostram que o método involuntário funciona significativamente melhor pois requer do estudante um processo mental mais profundo e além de auxiliar na memorização de palavras também auxilia o aluno ao reconhecer elementos semânticos da linguagem, por exemplo como adjetivos e substantivos interagem na língua a ser estudada. Naturalmente não é sempre possível inferir o significado de uma palavra a partir do contexto, nesses casos deve-se utilizar o método de sinônimos.
+   Portanto conclui-se que utilizar flashcards através de um sistema de repetição espaçada é bastante efetivo para aprender novo vocabulário, mas sua efetividade aumenta se utilizado dentro de um contexto textual onde é possível inferir o significado de algumas palavras, e quando não possível, as palavras com seus sinônimos na língua nativa podem ser adicionados ao sistema de flashcards para melhor memorização.
+   
+* REVIEW Capitulo 4. Proposta da plataforma
+  Esse projeto propõe o desenvolvimento de uma plataforma com o objetivo de auxiliar o aprendizado de novo vocabulário. Existem múltiplas aplicações com o mesmo fim no mercado atualmente, cada uma delas com suas particularidades, a seguir tem-se uma breve descrição de alguns exemplos: 
+
+** Aplicações semelhantes 
+*** Duolingo
+    Duolingo é uma plataforma que contém um aplicativo mobile e um sistema web para o aprendizado de línguas estrangeiras utilizando repetição espaçada. A plataforma utiliza-se de conceitos de gamificação para manter o usuário engajado na plataforma. O usuário progride através de de uma árvore de desafios e a dificuldade das sentenças a serem aprendidas aumentam gradualmente. Não é possível criar flashcards customizados e dessa forma o usuário fica limitado ao vocabulário que é escolhido pelo Duolingo para o aprendizado da linguagem.
+
+[Imagem duolingo]
+
+   O algoritmo utilizado para repetição espaçada no aplicativo é chamado de HLR ou Half-Life Regression que utiliza conceitos do método de Leitner juntamente com idéias do método de Pimsleur através de aprendizado de máquina para calcular os intervalos de estudo (SETTLES et al., 2016).
+
+*** Super Memo
+    Super Memo é um método de aprendizagem e também um software desenvolvido primariamente por Piotr Woźniak, um pesquisador que publicou vários artigos na área de repetição espaçada e aprendizado. O software permite que o usuário selecione pacotes de flashcards já criados para estudar ou criar seus próprios flashcards para estudar. É utilizado uma versão proprietária do algoritmo SM que foi descrito no Capítulo 2 para calcular os intervalos de estudo.
+
+[Imagem Super Memo]
+
+*** Anki
+    Anki é um software para memorização de conteúdo, não apenas vocabulário ou conteúdo relacionado a línguas mas qualquer conteúdo que envolva memorização. Funciona de forma semelhante ao Super Memo. Permite que o usuário use pacotes de flashcards ou crie seus próprios flashcards. O algoritmo de aprendizado esapaçado utilizado por Anki é a versão 2.0 do algoritmo SM ou também chamado de SM-2. A escolha da versão desse algoritmo de acordo com os desenvolvedores do Anki se deve ao fato que possui embasamento científico (Referencia aqui) e também é código aberto, que permite a distribuição do Anki como software livre e de código aberto para todos seus usuários.
+
+[Imagem Anki]
+
+** Flashcard com leitura interativa
+   A proposta desse projeto é criar uma plataforma que permita ao usuário aprimorar seu vocabulário através do método de repetição espaçada e flashcards em conjunto com leitura de textos como artigos e notícias. Como foi descrito anteriormente no capítulo 3, o denominado aprendizado involuntário de novo vocabulário através um contexto textual é mais efetivo.
+   A plataforma desenvolvida é composta de uma aplicação mobile para Android e iOS e um backend para sincronizar dados entre as plataformas (mais detalhes sobre implementação no Capítulo 5). A escolha da plataforma mobile deve-se ao fato de que a aplicação não querer nenhum input complexo e a interface de touchscreen é bastante intuitiva para o layout do aplicativo. Outro motivo que favoreceu a escolha da plataforma mobile é que o usuário pode praticar vocabulário mesmo não tendo acesso a um computador, sendo assim possível utilizar o aplicativo fora de casa ou no transporte público.
+   No aplicativo o usuário pode escolher escolher a partir de uma lista uma notícia na língua que está sendo estudada e a a partir desse artigo ele pode selecionar as palavras que tiver dificuldade e diretamente ver a tradução dessas palavras, se desejado ele pode adicionar a palavra selecionada a uma lista de flashcards para estudar posteriormente. O usuário pode também criar listas de flashcards customizados caso ele queira estudar palavras que não necessariamente pertencem a uma notícia fornecida pelo aplicativo.
+   Como descrito anteriormente, o algoritmo de repetição espaçada escolhido para esse projeto foi o SM-2. Um dos motivos para a escolha desse algoritmo é o fato de ser um algoritmo bastante performático e pode rodar direto no dispositivo do usuário, outro motivo foi o fato de o algoritmo ser código aberto e possuir licença livre.
+   Quando o usuário decidir revisar uma lista de flashcards, o software calcula quais flashcards devem ser mostrados e com qual frequência baseado na performance do usuário sem sessões anteriores. O aplicativo também mostrará notificações para o usuário lembrar-se de revisar os flashcards quando for o melhor momento baseado na curva de esquecimento descrita no Capítulo 3.
+
+* TODO Capitulo 5. Especificações técnicas e arquitetura
+- Aplicação Mobile e backend
+- Dart
+- Flutter (motivos da escolha)
+- Aqueduct
+- Database postgreSQL
+- Bloc + Redux
+
+
+** TODO Capitulo 7. Resultados e Analise de dados
+** TODO Conclusao
+* TODO Capitulo 6. Resultados e análise
