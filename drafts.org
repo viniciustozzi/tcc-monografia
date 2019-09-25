@@ -114,14 +114,25 @@ Weatherford, H. J. (1986). Personal benefits of foreign language study. ERIC dig
    Quando o usuário decidir revisar uma lista de flashcards, o software calcula quais flashcards devem ser mostrados e com qual frequência baseado na performance do usuário sem sessões anteriores. O aplicativo também mostrará notificações para o usuário lembrar-se de revisar os flashcards quando for o melhor momento baseado na curva de esquecimento descrita no Capítulo 3.
 
 * TODO Capitulo 5. Especificações técnicas e arquitetura
-- Aplicação Mobile e backend
-- Dart
-- Flutter (motivos da escolha)
-- Aqueduct
-- Database postgreSQL
+  Para o desenvolvimento desse projeto a plataforma de escolha foi uma aplicação mobile (Android e iOS). O motivo dessa escolha deve-se ao fato da grande popularização de smartphones nos últimos anos. De acordo com pesquisas feitas pelo centro de pesquisa Pew(PEW RESEARCH CENTER) em 2011 apenas 35% da população nos Estados Unidos possuiam um smartphone enquanto em 2019 esse número subiu para 81%.
+
+[Imagem Smartphones]
+
+  Outra vantagem da plataforma mobile é que o usuário não precisa estar com um computador ou notebook para estudar, aumentando a possibilidade de cenários onde o usuário pode estudar seus flashcards como por exemplo em filas ou em transportes públicos. O layout do aplicativo é otimizado para ser utilizado com tela sensível ao toque dos smartphones. 
+
+** Flutter
+   O aplicativo foi desenvolvido utilizando o SDK de desenvolvimento Flutter. Flutter é um conjunto de ferramentas de código aberto desenvolvido pelo Google. Sua primeira versão foi lançada em 2018. O objetivo do Flutter é permitir a criação de aplicativos Android e iOS onde o resultado seja equivalente a um aplicativo desenvolvido nativamente mas com uma base de código em comum para as duas plataformas. O SDK utiliza internamente a biblioteca gráfica Skia para renderizar o aplicativo.
+
+** Dart    
+   Dart é a linguagem de programação utilizada em Flutter. Dart é uma linguagem desenvolvida e otimizada para se desenvolver interfaces de usuário interativas. A linguagem compila para ARM e código de máquina x64, que são as arquiteturas mais utilizadas atualmente. Tambem é possível compilar Dart para Javascript e utilizá-lo na Web.
+   É possível compilar Dart de duas formas: "Ahead of Time" (AOT) e "Just in Time" (JIT). Utiliza-se AOT ao gerar o código que irá rodar em produção pois ele contém mais verificações e bloqueia a compilação em tempo de execução. já para código em desenvolvimento utiliza-se JIT, o que permite um ciclo de desenvolvimento mais ágil já que nem toda a aplicação precisa ser reconstruída de uma vez só. Devido a essa flexibilidade, é possível utilizar a técnica chamada de "Hot reload" ou carregamento quente onde o desenvolvedor pode modificar apenas um arquivo e quase instantâneamente verificar o resultado na aplicação. 
+
+** Arquitetura
+   
+
 - Bloc + Redux
+- Backend (ASP.NET Core)
+- Database postgreSQL
 
-
-** TODO Capitulo 7. Resultados e Analise de dados
-** TODO Conclusao
 * TODO Capitulo 6. Resultados e análise
+* TODO Conclusão
