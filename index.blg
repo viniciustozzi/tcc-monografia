@@ -1,8 +1,7 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: index.aux
 A level-1 auxiliary file: pre-textuais/agradecimentos.aux
-A level-1 auxiliary file: pre-textuais/agradecimentosgabs.aux
 A level-1 auxiliary file: pre-textuais/epigrafe.aux
 A level-1 auxiliary file: pre-textuais/resumo/pt_Br.aux
 A level-1 auxiliary file: pre-textuais/resumo/en.aux
@@ -16,99 +15,64 @@ A level-1 auxiliary file: textuais/capitulos/capitulo4.aux
 A level-1 auxiliary file: textuais/conclusao.aux
 A level-1 auxiliary file: pos-textuais/apendices.aux
 The style file: abntex2-alf.bst
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: pos-textuais/bibliografia.bib
-Warning--entry type for "usdot" isn't style-file defined
---line 134 of file pos-textuais/bibliografia.bib
-Warning--entry type for "smartcities2017" isn't style-file defined
---line 143 of file pos-textuais/bibliografia.bib
-Warning--entry type for "convergenciadigital" isn't style-file defined
---line 152 of file pos-textuais/bibliografia.bib
-Warning--entry type for "tecmundo" isn't style-file defined
---line 161 of file pos-textuais/bibliografia.bib
-Warning--entry type for "navegg" isn't style-file defined
---line 170 of file pos-textuais/bibliografia.bib
-Warning--entry type for "hadoop" isn't style-file defined
---line 179 of file pos-textuais/bibliografia.bib
-Warning--entry type for "relacional" isn't style-file defined
---line 188 of file pos-textuais/bibliografia.bib
-Warning--entry type for "sqlquery" isn't style-file defined
---line 197 of file pos-textuais/bibliografia.bib
-Warning--entry type for "datawarehouse" isn't style-file defined
---line 206 of file pos-textuais/bibliografia.bib
-Warning--entry type for "bdoo" isn't style-file defined
---line 215 of file pos-textuais/bibliografia.bib
-Warning--entry type for "sparkstreaming" isn't style-file defined
---line 224 of file pos-textuais/bibliografia.bib
-Warning--entry type for "case" isn't style-file defined
---line 233 of file pos-textuais/bibliografia.bib
-Warning--entry type for "kafka" isn't style-file defined
---line 242 of file pos-textuais/bibliografia.bib
-Warning--entry type for "datomic" isn't style-file defined
---line 251 of file pos-textuais/bibliografia.bib
-Warning--entry type for "cqrs" isn't style-file defined
---line 260 of file pos-textuais/bibliografia.bib
-Warning--entry type for "chevrolet" isn't style-file defined
---line 269 of file pos-textuais/bibliografia.bib
-Warning--entry type for "locust" isn't style-file defined
---line 278 of file pos-textuais/bibliografia.bib
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=8) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
-| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 40 entries,
+You've used 2 entries,
             6714 wiz_defined-function locations,
-            1392 strings with 15359 characters,
-and the built_in function-call counts, 50517 in all, are:
-= -- 5897
-> -- 686
-< -- 1366
-+ -- 1628
-- -- 221
-* -- 2916
-:= -- 6375
-add.period$ -- 152
-call.type$ -- 40
-change.case$ -- 291
-chr.to.int$ -- 58
-cite$ -- 39
-duplicate$ -- 5259
-empty$ -- 2218
-format.name$ -- 1035
-if$ -- 9954
+            1215 strings with 9868 characters,
+and the built_in function-call counts, 1479 in all, are:
+= -- 229
+> -- 15
+< -- 0
++ -- 51
+- -- 5
+* -- 72
+:= -- 258
+add.period$ -- 3
+call.type$ -- 2
+change.case$ -- 9
+chr.to.int$ -- 2
+cite$ -- 1
+duplicate$ -- 31
+empty$ -- 104
+format.name$ -- 23
+if$ -- 347
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 682
-newline$ -- 213
-num.names$ -- 195
-pop$ -- 888
+missing$ -- 27
+newline$ -- 12
+num.names$ -- 5
+pop$ -- 50
 preamble$ -- 1
-purify$ -- 127
+purify$ -- 6
 quote$ -- 0
-skip$ -- 5409
+skip$ -- 117
 stack$ -- 1
-substring$ -- 2159
-swap$ -- 1825
-text.length$ -- 31
+substring$ -- 66
+swap$ -- 12
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 0
 warning$ -- 0
-while$ -- 262
+while$ -- 8
 width$ -- 0
-write$ -- 587
-(There were 17 warnings)
+write$ -- 22
