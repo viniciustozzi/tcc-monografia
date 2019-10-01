@@ -5,10 +5,4 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Morelli 2013]{ihs2013}
-\abntrefinfo{Morelli}{MORELLI}{2013}
-{MORELLI, B. \emph{\textbf{Internet Connected Devices: Evolving from the
-  “Internet of Things” to the “Internet of Everything”}}. [S.l.]: SEMI
-  Texas Fall Outlook, 2013.}
-
 \end{thebibliography}
