@@ -11,41 +11,44 @@ Comumente em desenvolvimento \textit{mobile}, como por exemplo no Android SDK ou
 
 Se há uma mudança no estado da aplicação o \textit{framework} atualiza a interface de usuário e redesenha todos os componentes para representar o estado atual. Não é possível acessar um único componente e modificá-lo diretamente, em vez disso é necessário atualizar o estado da aplicação. Devido a essa natureza declarativa, gerenciamento de estados é um fator importante no desenvolvimento em Flutter.
 
+\begin{figure}[H]
+	\caption{\label{flutter_ui_state}\textit{Programação declarativa}}
+	\begin{center}
+		\includegraphics[scale=0.50]{flutter_ui_state}
+	\end{center}	
+	\legend{Fonte: Disponível em: https://flutter.dev/docs/development/data-and-backend/state-mgmt/declarative Acesso em: 01 out. 2019.}
+\end{figure}
+
 Há várias bibliotecas e arquiteturas para facilitar esse processo, algumas delas especificas para Flutter, por exemplo: Provider, BLoC e Redux. O método utilizado nesse projeto é uma mistura de BLoC com Redux. BLoC ou \textit{Business Logic Component} (Componente de lógica de negócios) baseia-se em separar o código de interface de usuário da lógica de negócios. 
 
 
-Redux é um \textit{framework} desenvolvido por Dan Abramov primeiramente para desenvolvimento web e eventualmente adaptado para outras plataformas. Geralmente Redux é apresentado como um container de estados previsíveis, na prática isso significa uma maneira de gerenciar a interface de usuário da aplicação a partir de um estado global. Neste projeto o estado é construído na camada de lógica de negócios e os \textit{Widgets} do flutter reagem a qualquer mudança que ocorra no objeto de estado. Uma visão geral da arquitetura do projeto pode ser vista nas figuras 5 e 6 a seguir:
+Redux é um \textit{framework} desenvolvido por Dan Abramov primeiramente para desenvolvimento web e eventualmente adaptado para outras plataformas. Geralmente Redux é apresentado como um container de estados previsíveis, na prática isso significa uma maneira de gerenciar a interface de usuário da aplicação a partir de um estado global. Neste projeto o estado é construído na camada de lógica de negócios e os \textit{Widgets} do flutter reagem a qualquer mudança que ocorra no objeto de estado. Uma visão geral da arquitetura do projeto pode ser vista nas figuras a seguir:
 
 \begin{figure}[H]
-	\caption{\label{fig:bloc_flow}Figura 5 - BLoC Flow}
+	\caption{\label{fig:bloc_flow}\textit{BLoC Pattern}}
 	\begin{center}
-		\includegraphics[scale=0.50]{bloc_flow}
-	\end{center}
-	%\legend{Fonte: \citeauthor{ihs2013}, \citeyear{ihs2013} (Adaptado)}
+		\includegraphics[scale=0.35]{bloc_flow}
+	\end{center}	
+	\legend{Fonte: Disponível em: https://pub.dev/packages/bloc Acesso em: 01 out. 2019.}
 \end{figure}
 
-
-
 \begin{figure}[H]
-	\caption{\label{fig:arquitetura_tozzi}Figura 6 - Arquitetura Tozzi}
+	\caption{\label{fig:arquitetura_tozzi}Arquitetura Geral}
 	\begin{center}
 		\includegraphics[scale=0.50]{arquitetura_tozzi}
 	\end{center}
-\legend{Fonte:Disponível em: . Acesso em: 30 set. 2019.}
+\legend{Fonte: Elaborado pelo autor}
 \end{figure}
 
-Sempre que o usuário interagir com o aplicativo, essa interação emite eventos a partir da camada de UI através dos Widgets para a camada de lógica onde o Redux mapeia esse evento para um possível estado da aplicação. A camada de interface escuta por mudanças no estado e renderiza novamente quando há uma variação no estado.
+Sempre que o usuário interagir com o aplicativo, essa interação emite eventos a partir da camada de UI através dos \textit{Widgets} para a camada de lógica onde o \textit{Redux} mapeia esse evento para um possível estado da aplicação. A camada de interface escuta por mudanças no estado e renderiza novamente quando há uma variação no estado.
 
-\begin{figure}[htb]
-	\caption{\label{fig:redux}Figura 7 - Redux Tozzi}
+\begin{figure}[H]
+	\caption{\label{fig:redux}Redux}
 	\begin{center}
-		\includegraphics[scale=0.79]{redux_tozzi}
+		\includegraphics[scale=0.50]{redux_tozzi}
 	\end{center}
-	%\legend{Fonte: \citeauthor{ihs2013}, \citeyear{ihs2013} (Adaptado)}
+	\legend{Fonte: Elaborado pelo autor}
 \end{figure}
-
-
-
 
 
 \section{Backend}

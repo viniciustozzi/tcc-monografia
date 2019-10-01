@@ -5,33 +5,33 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{8}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{11}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Aprendizado de uma nova l\IeC {\'\i }ngua}}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Dificuldades Ao Aprender Uma Nova L\IeC {\'\i }ngua}{9}{section.2.1}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Aprendizado de uma nova l\IeC {\'\i }ngua}}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}Dificuldades Ao Aprender Uma Nova L\IeC {\'\i }ngua}{12}{section.2.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {METODOLOGIAS PARA MEMORIZA\IeC {\c C}\IeC {\~A}O DE VOCABUL\IeC {\'A}RIO}}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}M\IeC {\'e}todo Dos \textit {Flashcards}}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}Curva De Esquecimento E Aprendizado }{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}SRS - \textit {Spaced Repetition System}}{13}{section.3.3}
-\contentsline {section}{\numberline {3.4}CALL - Computer Assisted Language Learning}{14}{section.3.4}
-\contentsline {section}{\numberline {3.5}Aprendizado Intencional De Vocabul\IeC {\'a}rio E Aprendizado Involunt\IeC {\'a}rio}{16}{section.3.5}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {METODOLOGIAS PARA MEMORIZA\IeC {\c C}\IeC {\~A}O DE VOCABUL\IeC {\'A}RIO}}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}M\IeC {\'e}todo Dos \textit {Flashcards}}{14}{section.3.1}
+\contentsline {section}{\numberline {3.2}Curva De Esquecimento E Aprendizado }{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}SRS - \textit {Spaced Repetition System}}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}CALL - Computer Assisted Language Learning}{17}{section.3.4}
+\contentsline {section}{\numberline {3.5}Aprendizado Intencional De Vocabul\IeC {\'a}rio E Aprendizado Involunt\IeC {\'a}rio}{19}{section.3.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Proposta da plataforma}}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Aplica\IeC {\c c}\IeC {\~o}es Semelhantes}{17}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Duolingo}{17}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Super Memo}{17}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Anki}{17}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Flashcard com leitura interativa}{18}{section.4.2}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Proposta da plataforma}}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}Aplica\IeC {\c c}\IeC {\~o}es Semelhantes}{20}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Duolingo}{20}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Super Memo}{21}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Anki}{21}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Flashcard com leitura interativa}{22}{section.4.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Especifica\IeC {\c c}\IeC {\~o}es t\IeC {\'e}cnicas e arquitetura}}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Flutter}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Dart}{19}{section.5.2}
-\contentsline {section}{\numberline {5.3}Arquitetura}{19}{section.5.3}
-\contentsline {section}{\numberline {5.4}Backend}{22}{section.5.4}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Especifica\IeC {\c c}\IeC {\~o}es t\IeC {\'e}cnicas e arquitetura}}{24}{chapter.5}
+\contentsline {section}{\numberline {5.1}Flutter}{24}{section.5.1}
+\contentsline {section}{\numberline {5.2}Dart}{24}{section.5.2}
+\contentsline {section}{\numberline {5.3}Arquitetura}{24}{section.5.3}
+\contentsline {section}{\numberline {5.4}Backend}{26}{section.5.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{23}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{28}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{24}{section*.18}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{29}{section*.23}
