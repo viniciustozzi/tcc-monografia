@@ -5,4 +5,10 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Settles e Meeder 2016]{trainable}
+\abntrefinfo{Settles e Meeder}{SETTLES; MEEDER}{2016}
+{SETTLES, B.; MEEDER, B. \textbf{A Trainable Spaced Repetition Model for
+  Language Learning}.
+Association for Computational Linguistics, 2016.}
+
 \end{thebibliography}

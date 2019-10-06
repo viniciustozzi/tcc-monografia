@@ -18,7 +18,6 @@ A level-1 auxiliary file: textuais/capitulos/capitulo4.aux
 A level-1 auxiliary file: textuais/conclusao.aux
 A level-1 auxiliary file: pos-textuais/apendices.aux
 The style file: abntex2-alf.bst
-I found no \bibdata command---while reading file index.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -28,7 +27,8 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Warning--I didn't find a database entry for "abnt-url-package=url"
+Database file #1: abntex2-options.bib
+Database file #2: pos-textuais/bibliografia.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -38,45 +38,44 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 0 entries,
+You've used 2 entries,
             6714 wiz_defined-function locations,
-            1210 strings with 9771 characters,
-and the built_in function-call counts, 679 in all, are:
-= -- 182
-> -- 0
+            1218 strings with 9968 characters,
+and the built_in function-call counts, 1572 in all, are:
+= -- 236
+> -- 32
 < -- 0
-+ -- 46
-- -- 0
-* -- 27
-:= -- 155
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 139
++ -- 58
+- -- 10
+* -- 86
+:= -- 271
+add.period$ -- 3
+call.type$ -- 2
+change.case$ -- 14
+chr.to.int$ -- 2
+cite$ -- 1
+duplicate$ -- 36
+empty$ -- 87
+format.name$ -- 47
+if$ -- 358
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 25
+missing$ -- 27
+newline$ -- 13
+num.names$ -- 5
+pop$ -- 53
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 7
 quote$ -- 0
-skip$ -- 40
+skip$ -- 116
 stack$ -- 1
-substring$ -- 44
-swap$ -- 0
+substring$ -- 66
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 2
+while$ -- 8
 width$ -- 0
-write$ -- 8
-(There was 1 error message)
+write$ -- 22

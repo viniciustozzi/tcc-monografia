@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.9.30)  1 OCT 2019 23:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.9.30)  6 OCT 2019 21:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1141,7 +1141,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 
 
 (./textuais/capitulos/capitulo2.tex
-<imagens/curva_esquecimento.png, id=151, 654.445pt x 456.70625pt>
+<imagens/curva_esquecimento.png, id=153, 654.445pt x 456.70625pt>
 File: imagens/curva_esquecimento.png Graphic file (type png)
 <use imagens/curva_esquecimento.png>
 Package pdftex.def Info: imagens/curva_esquecimento.png  used on input line 14.
@@ -1152,13 +1152,13 @@ Package pdftex.def Info: imagens/curva_esquecimento.png  used on input line 14.
 
 
 ]
-<imagens/memoria_neuro.png, id=157, 983.675pt x 1806.75pt>
+<imagens/memoria_neuro.png, id=159, 983.675pt x 1806.75pt>
 File: imagens/memoria_neuro.png Graphic file (type png)
 <use imagens/memoria_neuro.png>
 Package pdftex.def Info: imagens/memoria_neuro.png  used on input line 28.
 (pdftex.def)             Requested size: 295.10478pt x 542.02919pt.
  [15 <./imagens/curva_esquecimento.png>] [16 <./imagens/memoria_neuro.png>]
-<imagens/leitner_system.png, id=166, 328.8285pt x 178.704pt>
+<imagens/leitner_system.png, id=168, 328.8285pt x 178.704pt>
 File: imagens/leitner_system.png Graphic file (type png)
 <use imagens/leitner_system.png>
 Package pdftex.def Info: imagens/leitner_system.png  used on input line 41.
@@ -1166,7 +1166,7 @@ Package pdftex.def Info: imagens/leitner_system.png  used on input line 41.
  [17 <./imagens/leitner_system.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 55.
-<imagens/smartphones.png, id=173, 751.80875pt x 349.305pt>
+<imagens/smartphones.png, id=175, 751.80875pt x 349.305pt>
 File: imagens/smartphones.png Graphic file (type png)
 <use imagens/smartphones.png>
 Package pdftex.def Info: imagens/smartphones.png  used on input line 57.
@@ -1176,7 +1176,7 @@ Package pdftex.def Info: imagens/smartphones.png  used on input line 57.
 \openout2 = `textuais/capitulos/capitulo3.aux'.
 
  (./textuais/capitulos/capitulo3.tex
-<imagens/duolingo.png, id=183, 783.92876pt x 344.28625pt>
+<imagens/duolingo.png, id=185, 783.92876pt x 344.28625pt>
 File: imagens/duolingo.png Graphic file (type png)
 <use imagens/duolingo.png>
 Package pdftex.def Info: imagens/duolingo.png  used on input line 12.
@@ -1191,13 +1191,13 @@ Overfull \hbox (15.36089pt too wide) in paragraph at lines 12--13
 
 
  <./imagens/duolingo.png>]
-<imagens/supermemo.png, id=188, 743.77875pt x 448.67625pt>
+<imagens/supermemo.png, id=190, 743.77875pt x 448.67625pt>
 File: imagens/supermemo.png Graphic file (type png)
 <use imagens/supermemo.png>
 Package pdftex.def Info: imagens/supermemo.png  used on input line 25.
 (pdftex.def)             Requested size: 446.27069pt x 269.20782pt.
  [21 <./imagens/supermemo.png>]
-<imagens/anki.png, id=193, 373.395pt x 360.34625pt>
+<imagens/anki.png, id=195, 373.395pt x 360.34625pt>
 File: imagens/anki.png Graphic file (type png)
 <use imagens/anki.png>
 Package pdftex.def Info: imagens/anki.png  used on input line 36.
@@ -1210,23 +1210,23 @@ Package pdftex.def Info: imagens/anki.png  used on input line 36.
 
 
 ]
-<imagens/flutter_ui_state.png, id=207, 612.2875pt x 225.84375pt>
+<imagens/flutter_ui_state.png, id=209, 612.2875pt x 225.84375pt>
 File: imagens/flutter_ui_state.png Graphic file (type png)
 <use imagens/flutter_ui_state.png>
 Package pdftex.def Info: imagens/flutter_ui_state.png  used on input line 17.
 (pdftex.def)             Requested size: 306.143pt x 112.92159pt.
-<imagens/bloc_flow.png, id=208, 1251.67625pt x 307.1475pt>
+<imagens/bloc_flow.png, id=210, 1251.67625pt x 307.1475pt>
 File: imagens/bloc_flow.png Graphic file (type png)
 <use imagens/bloc_flow.png>
 Package pdftex.def Info: imagens/bloc_flow.png  used on input line 30.
 (pdftex.def)             Requested size: 438.09325pt x 107.50323pt.
-<imagens/arquitetura_tozzi.png, id=209, 663.47874pt x 392.46625pt>
+<imagens/arquitetura_tozzi.png, id=211, 663.47874pt x 392.46625pt>
 File: imagens/arquitetura_tozzi.png Graphic file (type png)
 <use imagens/arquitetura_tozzi.png>
 Package pdftex.def Info: imagens/arquitetura_tozzi.png  used on input line 38.
 (pdftex.def)             Requested size: 331.73856pt x 196.23264pt.
  [25 <./imagens/flutter_ui_state.png> <./imagens/bloc_flow.png>]
-<imagens/redux_tozzi.png, id=214, 733.74126pt x 312.16624pt>
+<imagens/redux_tozzi.png, id=216, 733.74126pt x 312.16624pt>
 File: imagens/redux_tozzi.png Graphic file (type png)
 <use imagens/redux_tozzi.png>
 Package pdftex.def Info: imagens/redux_tozzi.png  used on input line 48.
@@ -1238,11 +1238,19 @@ Package pdftex.def Info: imagens/redux_tozzi.png  used on input line 48.
 
 
 
+] (./index.bbl
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 3.
+
+bibitemlist
+) [29
+
+
 ]
 \openout2 = `pos-textuais/apendices.aux'.
 
-
-(./pos-textuais/apendices.tex)
+ (./pos-textuais/apendices.tex)
 No file index.ind.
 
 AED: lastpage setting LastPage
@@ -1265,13 +1273,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
 (./pos-textuais/apendices.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 427.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 427.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 427.
  ) 
 Here is how much of TeX's memory you used:
- 17078 strings out of 494587
- 260215 string characters out of 6177759
- 533471 words of memory out of 5000000
- 20057 multiletter control sequences out of 15000+600000
+ 17094 strings out of 494587
+ 260405 string characters out of 6177759
+ 533602 words of memory out of 5000000
+ 20066 multiletter control sequences out of 15000+600000
  71345 words of font info for 196 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  46i,12n,41p,2409b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1280,10 +1292,10 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvro8a.pfb>
-Output written on index.pdf (29 pages, 963556 bytes).
+Output written on index.pdf (30 pages, 962909 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 81 named destinations out of 1000 (max. 500000)
- 34093 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 34101 words of extra memory for PDF output out of 35830 (max. 10000000)
 
